@@ -15,6 +15,6 @@ router.get('/dashboard', userController.renderUserDashboard);
 router.post('/login', userController.login);
 
 // Submit Feedback for a Review
-router.post('/reviews/submit/:id', authenticateUser ,userController.submitReview);
+router.post('/reviews/submit/:id' ,userController.submitReview);
 
 module.exports = router;
