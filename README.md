@@ -1,23 +1,25 @@
 # Employee Review System
 
-Description
+## Description
 
 The Employee Review System is a web-based application designed to streamline the employee performance review process. It allows administrators to manage employees, assign reviews, and track the progress of reviews. Employees can view their assigned reviews, submit feedback, and track their performance.
 
-Table of Contents
+## Table of Contents
 
-- Description
-- Demo
-- Installation
-- Usage
-- Documentation
-- Contributing
-- License
-- Acknowledgments
+- [Description](#description)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
 
 ## Demo
 
 You can access a live demo of the Employee Review System at [Demo Link](https://your-demo-link.com).
+
 
 ## Installation
 
@@ -43,6 +45,7 @@ To run the Employee Review System locally, follow these steps:
 
 6. Access the application at http://localhost:3000 in your web browser.
 
+
 ## Usage
 
 Administrator
@@ -59,9 +62,11 @@ Employee
 - Submit feedback: Provide feedback for your assigned reviews.
 - Track performance: Monitor your review status and history.
 
+
 ## Documentation
 
 For detailed documentation, including API endpoints and usage instructions, refer to the [Employee Review System Documentation](https://link-to-your-documentation.com).
+
 
 ## Contributing
 
