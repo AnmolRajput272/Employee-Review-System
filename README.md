@@ -7,7 +7,6 @@ The Employee Review System is a web-based application designed to streamline the
 ## Table of Contents
 
 - [Description](#description)
-- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Documentation](#documentation)
@@ -16,34 +15,29 @@ The Employee Review System is a web-based application designed to streamline the
 - [Acknowledgments](#acknowledgments)
 
 
-## Demo
-
-You can access a live demo of the Employee Review System at [Demo Link](https://your-demo-link.com).
-
-
 ## Installation
 
 To run the Employee Review System locally, follow these steps:
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/employee-review-system.git
+   git clone https://github.com/AnmolRajput272/Employee-Review-System.git
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
    cd employee-review-system
 
-3. Install dependencies:
+4. Install dependencies:
 
    npm install
 
-4. Configure the database settings in config.js.
+5. Configure the database settings in models/sequelize.js.
 
-5. Start the application:
+6. Start the application:
 
-   npm start
+   node app.js
 
-6. Access the application at http://localhost:3000 in your web browser.
+7. Access the application at http://localhost:3000 in your web browser.
 
 
 ## Usage
@@ -65,7 +59,7 @@ Employee
 
 ## Documentation
 
-For detailed documentation, including API endpoints and usage instructions, refer to the [Employee Review System Documentation](https://link-to-your-documentation.com).
+For detailed documentation, including API endpoints and usage instructions, refer to the [Employee Review System Documentation](AnmolRajput272/Employee-Review-System.git).
 
 
 ## Contributing
