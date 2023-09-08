@@ -15,11 +15,11 @@ Table of Contents
 - License
 - Acknowledgments
 
-Demo
+## Demo
 
 You can access a live demo of the Employee Review System at [Demo Link](https://your-demo-link.com).
 
-Installation
+## Installation
 
 To run the Employee Review System locally, follow these steps:
 
@@ -43,7 +43,7 @@ To run the Employee Review System locally, follow these steps:
 
 6. Access the application at http://localhost:3000 in your web browser.
 
-Usage
+## Usage
 
 Administrator
 
@@ -59,11 +59,11 @@ Employee
 - Submit feedback: Provide feedback for your assigned reviews.
 - Track performance: Monitor your review status and history.
 
-Documentation
+## Documentation
 
 For detailed documentation, including API endpoints and usage instructions, refer to the [Employee Review System Documentation](https://link-to-your-documentation.com).
 
-Contributing
+## Contributing
 
 We welcome contributions from the community to improve the Employee Review System. To contribute:
 
@@ -75,15 +75,6 @@ We welcome contributions from the community to improve the Employee Review Syste
 
 Before submitting a pull request, make sure to adhere to the coding standards and conventions.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-Acknowledgments
-
-We would like to express our gratitude to the following individuals and projects for their contributions and inspiration:
-
-- [Name of contributor or library]
-- [Name of contributor or library]
-
-Additionally, we thank the open-source community for their valuable resources and support.
