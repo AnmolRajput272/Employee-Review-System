@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+#employeeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.employee-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+.employee-card:hover{
+    transform: scale(1.30);
+    transition: transform 0.3s ease-in-out;
+}
+
+.employee-card h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.employee-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.employee-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.employee-edit-delete>*{
+    margin: 10px;
+}
+
+.employee-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#review-dropdown{
+    width: 50%;
+    margin: 10px;
+}
+
+.employee-buttons button:hover {
+    background-color: #0056b3;
+}
+
+#logoutButton:hover {
+    cursor: pointer;
+}
+
+#addEmployee:hover {
+    cursor: pointer;
+}
+
+/* Style the navigation bar */
+.navbar {
+    text-align: center;
+    margin-top: 0;
+    background-color: #333;
+    list-style-type: none;
+    padding: 20px 10px;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}

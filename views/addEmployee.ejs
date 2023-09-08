@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <link rel="stylesheet" type="text/css" href="/public/styles/addEditEmployee-styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="/admin/dashboard">Dashboard</a></li>
+            <li><a id="logoutButton">Logout</a></li>
+        </ul>
+    </nav>
+    
+    <div class="add-employee-form">
+        <h1>Add User</h1>
+
+        <form id="addEmployeeForm" action="/admin/employees/add" method="POST">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <label for="isAdmin">Is Admin:</label>
+            <input type="checkbox" id="isAdmin" name="isAdmin"><br>
+
+            <button type="submit">Add User</button>
+        </form>
+
+        <a id="back-to-employee-list" href="/admin/dashboard">Back to Employee List</a>
+
+    </div>
+
+    <script src="/public/scripts/addEmployee-script.js"></script>
+
+</body>
+</html>

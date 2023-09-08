@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Reviews Given to You</title>
+    <link rel="stylesheet" type="text/css" href="/public/styles/allReviews-styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="/employee/dashboard">Dashboard</a></li>
+            <li><a id="logoutButton">Logout</a></li>
+        </ul>
+    </nav>
+    <h1>All Reviews Given to You</h1>
+    <div class="container">
+        <ul class="card-list">
+            <% reviews.forEach(function(review) { %>
+                <li class="card">
+                    <div class="card-content">
+                        <strong>Email:</strong> <%= review.reviewerEmail %><br>
+                        <strong>Review Title:</strong> <%= review.title %><br>
+                        <strong>Feedback:</strong> <%= review.feedback %><br>
+                        <strong>Status:</strong> <%= review.status %>
+                    </div>
+                </li>
+            <% }); %>
+        </ul>
+    </div>
+    <a href="/employee/dashboard" class="back-link">Back to Home</a>
+
+    <script>
+        // Handle logout
+        document.getElementById('logoutButton').addEventListener('click', () => {
+            localStorage.removeItem('token'); // Remove token from localStorage
+            window.location.href = '/employee/login'; // Redirect to the login page
+        });
+    </script>
+
+</body>
+</html>

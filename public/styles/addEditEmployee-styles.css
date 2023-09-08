@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+/* Reset some default styles */
+.add-employee-form {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the form vertically and horizontally */
+.add-employee-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Reset some default styles */
+.edit-employee-form {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the form vertically and horizontally */
+.edit-employee-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the form container */
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    padding-right: 50px;
+    width: 350px;
+}
+
+/* Style the form heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    vertical-align: middle; /* Align labels and checkboxes vertically */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="checkbox"] {
+    display: inline-block; /* Make checkboxes inline */
+    vertical-align: middle; /* Align checkboxes with labels */
+    margin-top: 0; /* Reset margin-top to align properly */
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the link to go back */
+#back-to-employee-list {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#back-to-employee-list:hover {
+    color: #0056b3;
+}
+
+#addEmployee:hover {
+    cursor: pointer;
+}
+
+#logoutButton:hover {
+    cursor: pointer;
+}
+
+/* Style the navigation bar */
+.navbar {
+    margin: 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    list-style-type: none;
+    padding: 20px 10px;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.alert-success{
+    color: green;
+}
